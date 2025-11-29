@@ -1,0 +1,80 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ensures the content fills the viewport height */
+    margin: 0;
+    background-color: #e0f2f7; /* Light blue background as in the original image */
+}
+
+.certificate-container {
+    width: 600px; /* Adjust as needed */
+    padding: 30px;
+    background-color: #ffffff;
+    border: 2px solid #a7d9ee; /* Border color matching the image */
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    box-sizing: border-box; 
+}
+
+/* --- Content Styles --- */
+.logo-section {
+    margin-bottom: 40px;
+}
+
+.logo {
+    width: 120px; /* Adjust logo size as needed */
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.institute-name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000080; /* Dark blue for the name */
+    margin: 0;
+}
+
+.institute-tagline {
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+}
+
+.status {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.course-completion {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.training-type {
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 1.3;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.name {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 50px;
+    color: #333;
+}
+
+.date,
+.validity {
+    font-size: 22px;
+    margin: 5px 0;
+    color: #333;
+}
